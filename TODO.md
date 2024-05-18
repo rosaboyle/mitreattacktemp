@@ -1,5 +1,3 @@
-# mitreattacktemp
-
 What this repository has:
 
 1. Each part of the code is modularized and made as independent as possible so it can be parallelized easily or can be used in a distributed system.

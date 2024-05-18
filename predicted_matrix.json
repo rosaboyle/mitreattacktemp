@@ -1,0 +1,143 @@
+{
+    "Reconnaissance": {
+        "techniques_count": 3,
+        "techniques": [
+            "Active Scanning",
+            "Search Open Technical Databases",
+            "Search Open Websites/Domains"
+        ]
+    },
+    "Resource Development": {
+        "techniques_count": 2,
+        "techniques": [
+            "Compromise Accounts",
+            "Compromise Infrastructure"
+        ]
+    },
+    "Initial Access": {
+        "techniques_count": 9,
+        "techniques": [
+            "Exploit Public-Facing Application",
+            "External Remote Services",
+            "Phishing",
+            "Replication Through Removable Media",
+            "Supply Chain Compromise",
+            "Trusted Relationship",
+            "Valid Accounts"
+        ]
+    },
+    "Execution": {
+        "techniques_count": 7,
+        "techniques": [
+            "Command and Scripting Interpreter",
+            "Inter-Process Communication",
+            "Native API",
+            "Scheduled Task/Job",
+            "Shared Modules",
+            "System Services",
+            "Windows Management Instrumentation"
+        ]
+    },
+    "Persistence": {
+        "techniques_count": 5,
+        "techniques": [
+            "Create Account",
+            "Event Triggered Execution",
+            "Hijack Execution Flow",
+            "Scheduled Task/Job",
+            "Server Software Component"
+        ]
+    },
+    "Privilege Escalation": {
+        "techniques_count": 3,
+        "techniques": [
+            "Access Token Manipulation",
+            "Hijack Execution Flow",
+            "Scheduled Task/Job"
+        ]
+    },
+    "Defense Evasion": {
+        "techniques_count": 7,
+        "techniques": [
+            "Deobfuscate/Decode Files or Information",
+            "Execution Guardrails",
+            "Hijack Execution Flow",
+            "Indicator Removal",
+            "Masquerading",
+            "Obfuscated Files or Information",
+            "System Binary Proxy Execution"
+        ]
+    },
+    "Credential Access": {
+        "techniques_count": 5,
+        "techniques": [
+            "Brute Force",
+            "Credentials from Password Stores",
+            "OS Credential Dumping",
+            "Steal Application Access Token",
+            "Steal Web Session Cookie"
+        ]
+    },
+    "Discovery": {
+        "techniques_count": 9,
+        "techniques": [
+            "Domain Trust Discovery",
+            "File and Directory Discovery",
+            "Network Service Discovery",
+            "Process Discovery",
+            "Query Registry",
+            "System Information Discovery",
+            "System Network Configuration Discovery",
+            "System Owner/User Discovery",
+            "System Service Discovery"
+        ]
+    },
+    "Lateral Movement": {
+        "techniques_count": 7,
+        "techniques": [
+            "Exploitation of Remote Services",
+            "Remote Services",
+            "Remote Service Session Hijacking",
+            "Replication Through Removable Media",
+            "Software Deployment Tools",
+            "Use Alternate Authentication Material"
+        ]
+    },
+    "Collection": {
+        "techniques_count": 5,
+        "techniques": [
+            "Browser Session Hijacking",
+            "Clipboard Data",
+            "Data from Information Repositories",
+            "Email Collection",
+            "Input Capture"
+        ]
+    },
+    "Command and Control": {
+        "techniques_count": 8,
+        "techniques": [
+            "Application Layer Protocol",
+            "Data Encoding",
+            "Data Obfuscation",
+            "Dynamic Resolution",
+            "Encrypted Channel",
+            "Protocol Tunneling",
+            "Proxy",
+            "Remote Access Software"
+        ]
+    },
+    "Exfiltration": {
+        "techniques_count": 2,
+        "techniques": [
+            "Exfiltration Over C2 Channel",
+            "Transfer Data to Cloud Account"
+        ]
+    },
+    "Impact": {
+        "techniques_count": 2,
+        "techniques": [
+            "Data Destruction",
+            "Data Encrypted for Impact"
+        ]
+    }
+}

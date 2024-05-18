@@ -1,0 +1,120 @@
+{
+    "ThreatActor": "Midnight Blizzard",
+    "OtherNames": [
+        "NOBELIUM",
+        "APT29",
+        "UNC2452",
+        "Cozy Bear"
+    ],
+    "Country": "Russia",
+    "Affiliation": "Foreign Intelligence Service of the Russian Federation (SVR)",
+    "Motivation": "Espionage and intelligence collection",
+    "ActiveSince": "2018",
+    "Techniques": [
+        {
+            "Technique": "Social Engineering",
+            "Description": "Uses credential theft phishing lures sent as Microsoft Teams chats."
+        },
+        {
+            "Technique": "Compromise of Microsoft 365 Tenants",
+            "Description": "Uses previously compromised Microsoft 365 tenants to create new domains that appear as technical support entities for further phishing attacks."
+        },
+        {
+            "Technique": "MFA Prompt Bombing",
+            "Description": "Engages users to approve MFA prompts via social engineering messages."
+        },
+        {
+            "Technique": "Token Theft",
+            "Description": "Regularly utilizes token theft techniques for initial access."
+        },
+        {
+            "Technique": "Password Spraying",
+            "Description": "Uses password spray attacks tailored to avoid detection."
+        },
+        {
+            "Technique": "Authentication Spear-Phishing",
+            "Description": "Utilizes spoofed identity/credential phishing attempts."
+        },
+        {
+            "Technique": "Supply Chain Attacks",
+            "Description": "Exploits trusted relationships between service providers and downstream customers."
+        },
+        {
+            "Technique": "OAuth Application Abuse",
+            "Description": "Misuses OAuth applications to maintain access and conduct post-compromise activity."
+        },
+        {
+            "Technique": "Advanced Techniques to Compromise Authentication Mechanisms",
+            "Description": "Includes exploitation of AD FS via FOGGYWEB and MAGICWEB malwares."
+        },
+        {
+            "Technique": "HTML Smuggling",
+            "Description": "Hides first-stage JavaScript dropper in malicious HTML attachments."
+        }
+    ],
+    "CommonlyUsedMalware": [
+        "FOGGYWEB",
+        "MAGICWEB",
+        "ROOTSAW (EnvyScout)",
+        "WINELOADER",
+        "GraphicalProton",
+        "TEARDROP",
+        "GoldMax"
+    ],
+    "ReportExcerpts": [
+        {
+            "ActivityDate": "Late May 2023",
+            "Title": "Highly Targeted Social Engineering Attacks",
+            "Details": "Used credential theft phishing lures via Microsoft Teams, leveraging previously compromised tenants for further attacks targeting MFA approval."
+        },
+        {
+            "ActivityDate": "September 6, 2023",
+            "Title": "Exploitation of TeamCity Vulnerability",
+            "Details": "Leveraged CVE-2023-42793 to conduct remote code execution and post-exploitation activities using GraphicalProton malware."
+        },
+        {
+            "ActivityDate": "January 12, 2024",
+            "Title": "Credential Theft and Post-Compromise Activities",
+            "Details": "Detected and mitigated an extensive phishing campaign targeting Microsoft systems, involving OAuth abuse and password spray attacks."
+        },
+        {
+            "ActivityDate": "February 2024",
+            "Title": "Phishing Campaign Targeting German Political Parties",
+            "Details": "Used ROOTSAW to deliver WINELOADER backdoor, representing a shift to targeting political entities alongside traditional diplomatic targets."
+        },
+        {
+            "ActivityDate": "Late February 2024",
+            "Title": "Increased Phishing Operations in Ukraine",
+            "Details": "Targeted foreign embassies in Ukraine, including Moscow\u2019s partners, with phishing emails to collect intelligence amidst Ukraine's counteroffensive."
+        }
+    ],
+    "Attribution": {
+        "Government": [
+            "US Government",
+            "UK Government"
+        ],
+        "SecurityOrganizations": [
+            "Microsoft Threat Intelligence",
+            "Mandiant",
+            "Recorded Future"
+        ]
+    },
+    "Targets": [
+        "Government Entities",
+        "Diplomatic Entities",
+        "Non-Governmental Organizations (NGOs)",
+        "IT Service Providers",
+        "Technology Sector",
+        "Discrete Manufacturing",
+        "Media Sector",
+        "Political Parties"
+    ],
+    "Recommendations": [
+        "Enable and enforce MFA for all user accounts.",
+        "Regularly audit and restrict OAuth applications.",
+        "Reinforce social engineering detection training among users.",
+        "Implement robust password policies to defend against password spray attacks.",
+        "Monitor for suspicious MFA prompt activity and other login anomalies.",
+        "Update software and systems to patch known vulnerabilities promptly."
+    ]
+}

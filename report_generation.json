@@ -1,0 +1,119 @@
+{
+  "APTs": [
+    {
+      "name": "Midnight Blizzard (NOBELIUM/APT29/UNC2452/Cozy Bear)",
+      "aliases": ["Midnight Blizzard", "NOBELIUM", "APT29", "UNC2452", "Cozy Bear"],
+      "origin": "Russian Federation",
+      "sponsor": "Foreign Intelligence Service of the Russian Federation (SVR)",
+      "first_seen": "2018",
+      "objectives": ["Espionage", "Intelligence Collection"],
+      "targets": ["Governments", "Diplomatic Entities", "NGOs", "IT Service Providers", "Technology", "Manufacturing", "Media Sectors", "Biomedical Manufacturing", "Political Parties"],
+      "initial_access_methods": [
+        "Stolen Credentials",
+        "Supply Chain Attacks",
+        "Exploitation of On-premises Environments",
+        "Phishing",
+        "OAuth Application Abuse",
+        "Credential Theft"
+      ],
+      "tools_tactics_techniques": [
+        {
+          "tool": "FOGGYWEB",
+          "description": "Remote exfiltration of AD FS configuration database."
+        },
+        {
+          "tool": "MAGICWEB",
+          "description": "Maintain persistent access to compromised environments."
+        },
+        {
+          "tactic": "Token Theft",
+          "description": "Initial access through session token theft."
+        },
+        {
+          "tool": "EnvyScout",
+          "description": "Initial access tool."
+        },
+        {
+          "tool": "BoomBox",
+          "description": "Initial access tool."
+        },
+        {
+          "tool": "NativeZone",
+          "description": "Initial access tool."
+        },
+        {
+          "tool": "VaporRage",
+          "description": "Initial access tool."
+        },
+        {
+          "tool": "GraphicalProton",
+          "description": "Used for persistence and credential dumping."
+        },
+        {
+          "tool": "ROOTSAW (aka EnvyScout)",
+          "description": "Central component of initial access efforts."
+        },
+        {
+          "tool": "WINELOADER",
+          "description": "Newly identified backdoor variant."
+        }
+      ],
+      "techniques": [
+        {"technique": "Phishing", "description": "Sending fraudulent emails to trick targets into divulging information or installing malware."},
+        {"technique": "Spear-phishing Authentication", "description": "Credential attacks via targeted phishing that elicits authentication credentials."},
+        {"technique": "Password Spray", "description": "Attempting to sign into many accounts using a few commonly used passwords."},
+        {"technique": "Brute Force", "description": "Systematic attempts to guess passwords."},
+        {"technique": "OAuth Application Abuse", "description": "Granting high permissions to malicious OAuth applications."},
+        {"technique": "Use of Residential Proxies", "description": "Obfuscating attack origins by routing traffic through residential IPs."},
+        {"technique": "Credential Theft", "description": "Stealing user credentials to gain unauthorized access."},
+        {"technique": "DLL Search Order Hijacking", "description": "Using legitimate executable applications to execute malicious DLLs."},
+        {"technique": "Windows Management Instrumentation (WMIC)", "description": "Using WMIC command-line utility for lateral movement."},
+        {"technique": "Scheduled Task/Job", "description": "Creating scheduled tasks to execute dropped payloads and maintain persistence."},
+        {"technique": "Rundll32 Proxy Execution", "description": "Executing malicious DLLs using rundll32.exe."},
+        {"technique": "Use of Legitimate Services for C2", "description": "Leveraging services like Dropbox and OneDrive for command and control."},
+        {"technique": "Remote Access Software", "description": "Installing software like AnyDesk for direct remote access."}
+      ],
+      "notable_operations": [
+        {
+          "name": "Compromise of Microsoft 365 tenants",
+          "description": "Compromising small business tenants to create new domains for social engineering attacks."
+        },
+        {
+          "name": "Malicious email campaigns",
+          "description": "Using various malware such as SUNBURST, TEARDROP, GoldMax in attacks."
+        },
+        {
+          "name": "Attack on SolarWinds",
+          "description": "Exploiting supply chain with sophisticated multi-layered malware."
+        },
+        {
+          "name": "Attack on German Political Parties",
+          "description": "Use of phishing to deliver ROOTSAW and WINELOADER targeting domestic German political entities."
+        }
+      ],
+      "recommendations": [
+        {"recommendation": "Enable MFA", "description": "Mandatory multi-factor authentication to prevent unauthorized access."},
+        {
+          "recommendation": "Monitor OAuth activity",
+          "description": "Detect and review OAuth application consents, especially those with high permissions."
+        },
+        {
+          "recommendation": "Harden email defenses",
+          "description": "Utilize anti-phishing solutions and be vigilant against social engineering."
+        },
+        {
+          "recommendation": "Monitor anomalous behaviour",
+          "description": "Detect and investigate unusual activities in log data for early threat detection."
+        },
+        {
+          "recommendation": "Secure privilege accounts",
+          "description": "Implement strict controls and monitoring for privileged accounts."
+        },
+        {
+          "recommendation": "Update and patch systems",
+          "description": "Regularly apply security updates to systems and applications."
+        }
+      ]
+    }
+  ]
+}

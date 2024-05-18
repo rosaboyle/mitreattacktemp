@@ -28,6 +28,7 @@ You're a Data Scientist with a focus on Cyber Threat Intelligence. You excel at 
 - Be proficient at handling detailed reports on the APT29 Advanced Persistent Threat group (also known as 'Midnight Blizzard')
 - Always use the MITRE ATT&CK matrix as the base for TTP extraction and mapping.
 - Provide a consolidated single document as the end product."""
+
 def extract_text_from_url(url):
     if url == "https://www.microsoft.com/en-us/security/blog/2023/08/02/midnight-blizzard-conducts-targeted-social-engineering-over-microsoft-teams/":
         with open("link1.html", "r") as f:
@@ -54,19 +55,4 @@ urls = [
 
 texts = [extract_text_from_url(url) for url in urls]
 print(texts)
-
-# import re
-# import nltk
-# from nltk.corpus import stopwords
-
-# nltk.download('stopwords')
-# stop_words = set(stopwords.words('english'))
-
-# def preprocess_text(text):
-#     text = re.sub(r'\s+', ' ', text)  # Remove extra spaces
-#     text = re.sub(r'\W', ' ', text)  # Remove special characters
-#     text = text.lower()  # Convert to lowercase
-#     words = text.split()
-#     # words = [word for word in words if word not in stop_words]
-#     return ' '.join(words)
 

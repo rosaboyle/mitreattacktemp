@@ -1,0 +1,430 @@
+    INFO: 2024-05-17 20:59:18,631:               log.py:   20: Logging to /home/ddo/CMU/JOBS/SYSTEMTWO/mitreattacktemp/mdpdf.log
+   DEBUG: 2024-05-17 20:59:18,631:               cli.py:  103: temp.md
+    INFO: 2024-05-17 20:59:18,631:         converter.py:   14: temp.md
+   DEBUG: 2024-05-17 20:59:18,635:      pdf_renderer.py:  470: printSegment: Threat Actor Profiling:
+   DEBUG: 2024-05-17 20:59:18,636:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,636:      pdf_renderer.py:  470: printSegment: Threat Actor:
+   DEBUG: 2024-05-17 20:59:18,637:      pdf_renderer.py:  470: printSegment:  Midnight Blizzard
+   DEBUG: 2024-05-17 20:59:18,637:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,638:      pdf_renderer.py:  470: printSegment: Other Names:
+   DEBUG: 2024-05-17 20:59:18,638:      pdf_renderer.py:  470: printSegment:  NOBELIUM, APT29, UNC2452, Cozy Bear
+   DEBUG: 2024-05-17 20:59:18,639:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,639:      pdf_renderer.py:  470: printSegment: Country:
+   DEBUG: 2024-05-17 20:59:18,640:      pdf_renderer.py:  470: printSegment:  Russia
+   DEBUG: 2024-05-17 20:59:18,640:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,641:      pdf_renderer.py:  470: printSegment: Affiliation:
+   DEBUG: 2024-05-17 20:59:18,641:      pdf_renderer.py:  470: printSegment:  Foreign Intelligence Service of the Russian Federation (SVR)
+   DEBUG: 2024-05-17 20:59:18,642:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,642:      pdf_renderer.py:  470: printSegment: Motivation:
+   DEBUG: 2024-05-17 20:59:18,643:      pdf_renderer.py:  470: printSegment:  Espionage and intelligence collection
+   DEBUG: 2024-05-17 20:59:18,643:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,643:      pdf_renderer.py:  470: printSegment: Active Since:
+   DEBUG: 2024-05-17 20:59:18,644:      pdf_renderer.py:  470: printSegment:  2018
+   DEBUG: 2024-05-17 20:59:18,644:      pdf_renderer.py:  470: printSegment: Techniques:
+   DEBUG: 2024-05-17 20:59:18,644:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2024-05-17 20:59:18,645:      pdf_renderer.py:  470: printSegment: Social Engineering:
+   DEBUG: 2024-05-17 20:59:18,645:      pdf_renderer.py:  470: printSegment:  Uses credential theft phishing lures sent as Microsoft Teams chats.
+   DEBUG: 2024-05-17 20:59:18,646:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2024-05-17 20:59:18,646:      pdf_renderer.py:  470: printSegment: Compromise of Microsoft 365 Tenants:
+   DEBUG: 2024-05-17 20:59:18,650:      pdf_renderer.py:  470: printSegment:  Uses previously compromised Microsoft 365 tenants to
+   DEBUG: 2024-05-17 20:59:18,650:      pdf_renderer.py:  470: printSegment: create new domains that appear as technical support entities for further phishing attacks.
+   DEBUG: 2024-05-17 20:59:18,651:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2024-05-17 20:59:18,651:      pdf_renderer.py:  470: printSegment: MFA Prompt Bombing:
+   DEBUG: 2024-05-17 20:59:18,652:      pdf_renderer.py:  470: printSegment:  Engages users to approve MFA prompts via social engineering messages.
+   DEBUG: 2024-05-17 20:59:18,653:      pdf_renderer.py:  470: printSegment:  4 
+   DEBUG: 2024-05-17 20:59:18,653:      pdf_renderer.py:  470: printSegment: Token Theft:
+   DEBUG: 2024-05-17 20:59:18,653:      pdf_renderer.py:  470: printSegment:  Regularly utilizes token theft techniques for initial access.
+   DEBUG: 2024-05-17 20:59:18,654:      pdf_renderer.py:  470: printSegment:  5 
+   DEBUG: 2024-05-17 20:59:18,654:      pdf_renderer.py:  470: printSegment: Password Spraying:
+   DEBUG: 2024-05-17 20:59:18,654:      pdf_renderer.py:  470: printSegment:  Uses password spray attacks tailored to avoid detection.
+   DEBUG: 2024-05-17 20:59:18,654:      pdf_renderer.py:  470: printSegment:  6 
+   DEBUG: 2024-05-17 20:59:18,655:      pdf_renderer.py:  470: printSegment: Authentication Spear-Phishing:
+   DEBUG: 2024-05-17 20:59:18,655:      pdf_renderer.py:  470: printSegment:  Utilizes spoofed identity/credential phishing attempts.
+   DEBUG: 2024-05-17 20:59:18,655:      pdf_renderer.py:  470: printSegment:  7 
+   DEBUG: 2024-05-17 20:59:18,655:      pdf_renderer.py:  470: printSegment: Supply Chain Attacks:
+   DEBUG: 2024-05-17 20:59:18,656:      pdf_renderer.py:  470: printSegment:  Exploits trusted relationships between service providers and downstream
+   DEBUG: 2024-05-17 20:59:18,656:      pdf_renderer.py:  470: printSegment: customers.
+   DEBUG: 2024-05-17 20:59:18,656:      pdf_renderer.py:  470: printSegment:  8 
+   DEBUG: 2024-05-17 20:59:18,656:      pdf_renderer.py:  470: printSegment: OAuth Application Abuse:
+   DEBUG: 2024-05-17 20:59:18,657:      pdf_renderer.py:  470: printSegment:  Misuses OAuth applications to maintain access and conduct
+   DEBUG: 2024-05-17 20:59:18,657:      pdf_renderer.py:  470: printSegment: post-compromise activity.
+   DEBUG: 2024-05-17 20:59:18,657:      pdf_renderer.py:  470: printSegment:  9 
+   DEBUG: 2024-05-17 20:59:18,658:      pdf_renderer.py:  470: printSegment: Advanced Techniques to Compromise Authentication Mechanisms:
+   DEBUG: 2024-05-17 20:59:18,658:      pdf_renderer.py:  470: printSegment:  Includes exploitation of AD
+   DEBUG: 2024-05-17 20:59:18,658:      pdf_renderer.py:  470: printSegment: FS via FOGGYWEB and MAGICWEB malwares.
+   DEBUG: 2024-05-17 20:59:18,659:      pdf_renderer.py:  470: printSegment:  10 
+   DEBUG: 2024-05-17 20:59:18,659:      pdf_renderer.py:  470: printSegment: HTML Smuggling:
+   DEBUG: 2024-05-17 20:59:18,659:      pdf_renderer.py:  470: printSegment:  Hides first-stage JavaScript dropper in malicious HTML attachments.
+   DEBUG: 2024-05-17 20:59:18,659:      pdf_renderer.py:  470: printSegment: Commonly Used Malware:
+   DEBUG: 2024-05-17 20:59:18,660:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,660:      pdf_renderer.py:  470: printSegment: FOGGYWEB
+   DEBUG: 2024-05-17 20:59:18,660:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,660:      pdf_renderer.py:  470: printSegment: MAGICWEB
+   DEBUG: 2024-05-17 20:59:18,660:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,661:      pdf_renderer.py:  470: printSegment: ROOTSAW (EnvyScout)
+   DEBUG: 2024-05-17 20:59:18,661:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,661:      pdf_renderer.py:  470: printSegment: WINELOADER
+   DEBUG: 2024-05-17 20:59:18,661:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,662:      pdf_renderer.py:  470: printSegment: GraphicalProton
+   DEBUG: 2024-05-17 20:59:18,662:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,662:      pdf_renderer.py:  470: printSegment: TEARDROP
+   DEBUG: 2024-05-17 20:59:18,662:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,662:      pdf_renderer.py:  470: printSegment: GoldMax
+   DEBUG: 2024-05-17 20:59:18,663:      pdf_renderer.py:  470: printSegment: Report Excerpts:
+   DEBUG: 2024-05-17 20:59:18,663:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,663:      pdf_renderer.py:  470: printSegment: Activity Date:
+   DEBUG: 2024-05-17 20:59:18,663:      pdf_renderer.py:  470: printSegment:  Late May 2023
+   DEBUG: 2024-05-17 20:59:18,663:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,664:      pdf_renderer.py:  470: printSegment: Title:
+   DEBUG: 2024-05-17 20:59:18,664:      pdf_renderer.py:  470: printSegment:  Highly Targeted Social Engineering Attacks
+   DEBUG: 2024-05-17 20:59:18,664:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,664:      pdf_renderer.py:  470: printSegment: Details:
+   DEBUG: 2024-05-17 20:59:18,665:      pdf_renderer.py:  470: printSegment:  Used credential theft phishing lures via Microsoft Teams, leveraging
+   DEBUG: 2024-05-17 20:59:18,666:      pdf_renderer.py:  470: printSegment: previously compromised tenants for further attacks targeting MFA approval.
+   DEBUG: 2024-05-17 20:59:18,666:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,666:      pdf_renderer.py:  470: printSegment: Activity Date:
+   DEBUG: 2024-05-17 20:59:18,667:      pdf_renderer.py:  470: printSegment:  September 6, 2023
+   DEBUG: 2024-05-17 20:59:18,667:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,667:      pdf_renderer.py:  470: printSegment: Title:
+   DEBUG: 2024-05-17 20:59:18,667:      pdf_renderer.py:  470: printSegment:  Exploitation of TeamCity Vulnerability
+   DEBUG: 2024-05-17 20:59:18,667:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,668:      pdf_renderer.py:  470: printSegment: Details:
+   DEBUG: 2024-05-17 20:59:18,668:      pdf_renderer.py:  470: printSegment:  Leveraged CVE-2023-42793 to conduct remote code execution and
+   DEBUG: 2024-05-17 20:59:18,669:      pdf_renderer.py:  470: printSegment: post-exploitation activities using GraphicalProton malware.
+   DEBUG: 2024-05-17 20:59:18,669:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,669:      pdf_renderer.py:  470: printSegment: Activity Date:
+   DEBUG: 2024-05-17 20:59:18,670:      pdf_renderer.py:  470: printSegment:  January 12, 2024
+   DEBUG: 2024-05-17 20:59:18,670:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,670:      pdf_renderer.py:  470: printSegment: Title:
+   DEBUG: 2024-05-17 20:59:18,670:      pdf_renderer.py:  470: printSegment:  Credential Theft and Post-Compromise Activities
+   DEBUG: 2024-05-17 20:59:18,671:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,671:      pdf_renderer.py:  470: printSegment: Details:
+   DEBUG: 2024-05-17 20:59:18,672:      pdf_renderer.py:  470: printSegment:  Detected and mitigated an extensive phishing campaign targeting Microsoft
+   DEBUG: 2024-05-17 20:59:18,672:      pdf_renderer.py:  470: printSegment: systems, involving OAuth abuse and password spray attacks.
+   DEBUG: 2024-05-17 20:59:18,672:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,673:      pdf_renderer.py:  470: printSegment: Activity Date:
+   DEBUG: 2024-05-17 20:59:18,673:      pdf_renderer.py:  470: printSegment:  February 2024
+   DEBUG: 2024-05-17 20:59:18,673:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,673:      pdf_renderer.py:  470: printSegment: Title:
+   DEBUG: 2024-05-17 20:59:18,674:      pdf_renderer.py:  470: printSegment:  Phishing Campaign Targeting German Political Parties
+   DEBUG: 2024-05-17 20:59:18,674:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,674:      pdf_renderer.py:  470: printSegment: Details:
+   DEBUG: 2024-05-17 20:59:18,675:      pdf_renderer.py:  470: printSegment:  Used ROOTSAW to deliver WINELOADER backdoor, representing a shift
+   DEBUG: 2024-05-17 20:59:18,676:      pdf_renderer.py:  470: printSegment: to targeting political entities alongside traditional diplomatic targets.
+   DEBUG: 2024-05-17 20:59:18,676:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,676:      pdf_renderer.py:  470: printSegment: Activity Date:
+   DEBUG: 2024-05-17 20:59:18,676:      pdf_renderer.py:  470: printSegment:  Late February 2024
+   DEBUG: 2024-05-17 20:59:18,676:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,677:      pdf_renderer.py:  470: printSegment: Title:
+   DEBUG: 2024-05-17 20:59:18,677:      pdf_renderer.py:  470: printSegment:  Increased Phishing Operations in Ukraine
+   DEBUG: 2024-05-17 20:59:18,677:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,677:      pdf_renderer.py:  470: printSegment: Details:
+   DEBUG: 2024-05-17 20:59:18,678:      pdf_renderer.py:  470: printSegment:  Targeted foreign embassies in Ukraine, including Moscow’s partners, with
+   DEBUG: 2024-05-17 20:59:18,680:      pdf_renderer.py:  470: printSegment: phishing emails to collect intelligence amidst Ukraine
+   DEBUG: 2024-05-17 20:59:18,680:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2024-05-17 20:59:18,680:      pdf_renderer.py:  470: printSegment: s counteroffensive.
+   DEBUG: 2024-05-17 20:59:18,681:      pdf_renderer.py:  470: printSegment: Attribution:
+   DEBUG: 2024-05-17 20:59:18,681:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,681:      pdf_renderer.py:  470: printSegment: Government:
+   DEBUG: 2024-05-17 20:59:18,681:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,681:      pdf_renderer.py:  470: printSegment: US Government
+   DEBUG: 2024-05-17 20:59:18,681:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,682:      pdf_renderer.py:  470: printSegment: UK Government
+   DEBUG: 2024-05-17 20:59:18,682:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,682:      pdf_renderer.py:  470: printSegment: Security Organizations:
+   DEBUG: 2024-05-17 20:59:18,682:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,682:      pdf_renderer.py:  470: printSegment: Microsoft Threat Intelligence
+   DEBUG: 2024-05-17 20:59:18,683:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,683:      pdf_renderer.py:  470: printSegment: Mandiant
+   DEBUG: 2024-05-17 20:59:18,683:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,683:      pdf_renderer.py:  470: printSegment: Recorded Future
+   DEBUG: 2024-05-17 20:59:18,683:      pdf_renderer.py:  470: printSegment: Targets:
+   DEBUG: 2024-05-17 20:59:18,683:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,684:      pdf_renderer.py:  470: printSegment: Government Entities
+   DEBUG: 2024-05-17 20:59:18,684:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,684:      pdf_renderer.py:  470: printSegment: Diplomatic Entities
+   DEBUG: 2024-05-17 20:59:18,684:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,684:      pdf_renderer.py:  470: printSegment: Non-Governmental Organizations (NGOs)
+   DEBUG: 2024-05-17 20:59:18,684:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,685:      pdf_renderer.py:  470: printSegment: IT Service Providers
+   DEBUG: 2024-05-17 20:59:18,685:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,685:      pdf_renderer.py:  470: printSegment: Technology Sector
+   DEBUG: 2024-05-17 20:59:18,685:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,685:      pdf_renderer.py:  470: printSegment: Discrete Manufacturing
+   DEBUG: 2024-05-17 20:59:18,686:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,686:      pdf_renderer.py:  470: printSegment: Media Sector
+   DEBUG: 2024-05-17 20:59:18,686:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,686:      pdf_renderer.py:  470: printSegment: Political Parties
+   DEBUG: 2024-05-17 20:59:18,686:      pdf_renderer.py:  470: printSegment: Recommendations:
+   DEBUG: 2024-05-17 20:59:18,686:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,687:      pdf_renderer.py:  470: printSegment: Enable and enforce MFA for all user accounts.
+   DEBUG: 2024-05-17 20:59:18,687:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,687:      pdf_renderer.py:  470: printSegment: Regularly audit and restrict OAuth applications.
+   DEBUG: 2024-05-17 20:59:18,687:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,688:      pdf_renderer.py:  470: printSegment: Reinforce social engineering detection training among users.
+   DEBUG: 2024-05-17 20:59:18,688:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,688:      pdf_renderer.py:  470: printSegment: Implement robust password policies to defend against password spray attacks.
+   DEBUG: 2024-05-17 20:59:18,688:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,688:      pdf_renderer.py:  470: printSegment: Monitor for suspicious MFA prompt activity and other login anomalies.
+   DEBUG: 2024-05-17 20:59:18,689:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,689:      pdf_renderer.py:  470: printSegment: Update software and systems to patch known vulnerabilities promptly.
+   DEBUG: 2024-05-17 20:59:18,689:      pdf_renderer.py:  470: printSegment: Hunting Actions:
+   DEBUG: 2024-05-17 20:59:18,689:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,690:      pdf_renderer.py:  470: printSegment: Credential Theft Phishing Lures via Microsoft Teams
+   DEBUG: 2024-05-17 20:59:18,690:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,690:      pdf_renderer.py:  470: printSegment: Identify and track phishing lures sent via Microsoft Teams chats.
+   DEBUG: 2024-05-17 20:59:18,690:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,691:      pdf_renderer.py:  470: printSegment: Detect new domain creation by compromised small business tenants.
+   DEBUG: 2024-05-17 20:59:18,691:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,691:      pdf_renderer.py:  470: printSegment: Monitor for requests to create new onmicrosoft.com subdomains.
+   DEBUG: 2024-05-17 20:59:18,691:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,692:      pdf_renderer.py:  470: printSegment: Alert for MFA prompt engagement requests initiated by external users.
+   DEBUG: 2024-05-17 20:59:18,692:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,692:      pdf_renderer.py:  470: printSegment: Credential Attack Campaigns
+   DEBUG: 2024-05-17 20:59:18,692:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,693:      pdf_renderer.py:  470: printSegment: Detect token theft techniques for initial access.
+   DEBUG: 2024-05-17 20:59:18,693:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,693:      pdf_renderer.py:  470: printSegment: Monitor for signs of authentication spear-phishing, password spray, brute force, and
+   DEBUG: 2024-05-17 20:59:18,694:      pdf_renderer.py:  470: printSegment: other credential attacks.
+   DEBUG: 2024-05-17 20:59:18,694:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,694:      pdf_renderer.py:  470: printSegment: Identify activity using Microsoft 365 tenants owned by small businesses for
+   DEBUG: 2024-05-17 20:59:18,695:      pdf_renderer.py:  470: printSegment: malicious purposes.
+   DEBUG: 2024-05-17 20:59:18,695:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,695:      pdf_renderer.py:  470: printSegment: Post-compromise Activities
+   DEBUG: 2024-05-17 20:59:18,695:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,696:      pdf_renderer.py:  470: printSegment: Alert on information theft indicators from compromised Microsoft 365 tenants.
+   DEBUG: 2024-05-17 20:59:18,696:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,696:      pdf_renderer.py:  470: printSegment: Monitor attempts to add new devices to the organization as managed devices via
+   DEBUG: 2024-05-17 20:59:18,697:      pdf_renderer.py:  470: printSegment: Microsoft Entra ID.
+   DEBUG: 2024-05-17 20:59:18,697:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,697:      pdf_renderer.py:  470: printSegment: Log any anomalous device additions or policy circumvention attempts.
+   DEBUG: 2024-05-17 20:59:18,697:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,697:      pdf_renderer.py:  470: printSegment: OAuth Application Abuse
+   DEBUG: 2024-05-17 20:59:18,697:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,698:      pdf_renderer.py:  470: printSegment: Track and alert on malicious OAuth application creation or modification within a
+   DEBUG: 2024-05-17 20:59:18,698:      pdf_renderer.py:  470: printSegment: tenant.
+   DEBUG: 2024-05-17 20:59:18,698:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,698:      pdf_renderer.py:  470: printSegment: Flag excessive or unusual permission grants to OAuth applications.
+   DEBUG: 2024-05-17 20:59:18,698:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,699:      pdf_renderer.py:  470: printSegment: Monitor OAuth application
+   DEBUG: 2024-05-17 20:59:18,699:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2024-05-17 20:59:18,699:      pdf_renderer.py:  470: printSegment: s suspicious API activity.
+   DEBUG: 2024-05-17 20:59:18,699:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,699:      pdf_renderer.py:  470: printSegment: Remote Code Execution via CVE-2023-42793
+   DEBUG: 2024-05-17 20:59:18,700:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,700:      pdf_renderer.py:  470: printSegment: Detect unauthorized access to vulnerable JetBrains TeamCity versions.
+   DEBUG: 2024-05-17 20:59:18,700:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,700:      pdf_renderer.py:  470: printSegment: Monitor application and system logs for signs of exploitation.
+   DEBUG: 2024-05-17 20:59:18,700:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,701:      pdf_renderer.py:  470: printSegment: Track IP addresses and commands executed remotely on vulnerable servers.
+   DEBUG: 2024-05-17 20:59:18,701:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,701:      pdf_renderer.py:  470: printSegment: Watch for attempts to install or execute malicious DLL files.
+   DEBUG: 2024-05-17 20:59:18,701:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,702:      pdf_renderer.py:  470: printSegment: Custom Exploit Script Usage
+   DEBUG: 2024-05-17 20:59:18,702:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,702:      pdf_renderer.py:  470: printSegment: Detect the use of Nuclei vulnerability scanner templates targeting CVE-2023-42793.
+   DEBUG: 2024-05-17 20:59:18,702:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,702:      pdf_renderer.py:  470: printSegment: Alert on HTTP requests indicative of exploitation attempts.
+   DEBUG: 2024-05-17 20:59:18,703:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,703:      pdf_renderer.py:  470: printSegment: Monitor for indicators of multiple threat actors exploiting the same vulnerability.
+   DEBUG: 2024-05-17 20:59:18,703:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,703:      pdf_renderer.py:  470: printSegment: WINELOADER and ROOTSAW Campaigns
+   DEBUG: 2024-05-17 20:59:18,704:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,704:      pdf_renderer.py:  470: printSegment: Track spear-phishing emails containing malicious links or attachments.
+   DEBUG: 2024-05-17 20:59:18,704:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,704:      pdf_renderer.py:  470: printSegment: Monitor HTTP requests to domains like 
+   DEBUG: 2024-05-17 20:59:18,705:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2024-05-17 20:59:18,705:      pdf_renderer.py:  470: printSegment: waterforvoiceless
+   DEBUG: 2024-05-17 20:59:18,705:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2024-05-17 20:59:18,705:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2024-05-17 20:59:18,705:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2024-05-17 20:59:18,705:      pdf_renderer.py:  470: printSegment: org
+   DEBUG: 2024-05-17 20:59:18,706:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2024-05-17 20:59:18,706:      pdf_renderer.py:  470: printSegment:  for payload
+   DEBUG: 2024-05-17 20:59:18,706:      pdf_renderer.py:  470: printSegment: downloads.
+   DEBUG: 2024-05-17 20:59:18,706:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,707:      pdf_renderer.py:  470: printSegment: Inspect downloaded payloads for file and directory creation activities.
+   DEBUG: 2024-05-17 20:59:18,707:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,707:      pdf_renderer.py:  470: printSegment: Watch for execution of Windows binaries by malicious JavaScript payloads.
+   DEBUG: 2024-05-17 20:59:18,707:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,708:      pdf_renderer.py:  470: printSegment: GraphicalProton Malware Usage
+   DEBUG: 2024-05-17 20:59:18,708:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,708:      pdf_renderer.py:  470: printSegment: Detect malicious DLL files with indicators matching GraphicalProton Yara rules.
+   DEBUG: 2024-05-17 20:59:18,708:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,709:      pdf_renderer.py:  470: printSegment: Observe execution of suspicious scheduled tasks invoking malicious DLLs.
+   DEBUG: 2024-05-17 20:59:18,709:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,709:      pdf_renderer.py:  470: printSegment: Monitor network connections to malicious C2 servers or unexpected services like
+   DEBUG: 2024-05-17 20:59:18,710:      pdf_renderer.py:  470: printSegment: Microsoft OneDrive and Dropbox.
+   DEBUG: 2024-05-17 20:59:18,710:      pdf_renderer.py:  470: printSegment: MITRE ATT
+   DEBUG: 2024-05-17 20:59:18,710:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2024-05-17 20:59:18,710:      pdf_renderer.py:  470: printSegment: CK Matrix:
+   DEBUG: 2024-05-17 20:59:18,711:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,711:      pdf_renderer.py:  470: printSegment: Reconnaissance:
+   DEBUG: 2024-05-17 20:59:18,711:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,711:      pdf_renderer.py:  470: printSegment: Active Scanning
+   DEBUG: 2024-05-17 20:59:18,712:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,712:      pdf_renderer.py:  470: printSegment: Search Open Technical Databases
+   DEBUG: 2024-05-17 20:59:18,712:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,712:      pdf_renderer.py:  470: printSegment: Search Open Websites/Domains
+   DEBUG: 2024-05-17 20:59:18,713:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,713:      pdf_renderer.py:  470: printSegment: Resource Development:
+   DEBUG: 2024-05-17 20:59:18,713:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,713:      pdf_renderer.py:  470: printSegment: Compromise Accounts
+   DEBUG: 2024-05-17 20:59:18,714:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,714:      pdf_renderer.py:  470: printSegment: Compromise Infrastructure
+   DEBUG: 2024-05-17 20:59:18,714:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,714:      pdf_renderer.py:  470: printSegment: Initial Access:
+   DEBUG: 2024-05-17 20:59:18,715:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,715:      pdf_renderer.py:  470: printSegment: Exploit Public-Facing Application
+   DEBUG: 2024-05-17 20:59:18,715:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,715:      pdf_renderer.py:  470: printSegment: External Remote Services
+   DEBUG: 2024-05-17 20:59:18,716:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,716:      pdf_renderer.py:  470: printSegment: Phishing
+   DEBUG: 2024-05-17 20:59:18,716:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,716:      pdf_renderer.py:  470: printSegment: Replication Through Removable Media
+   DEBUG: 2024-05-17 20:59:18,717:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,717:      pdf_renderer.py:  470: printSegment: Supply Chain Compromise
+   DEBUG: 2024-05-17 20:59:18,717:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,718:      pdf_renderer.py:  470: printSegment: Trusted Relationship
+   DEBUG: 2024-05-17 20:59:18,718:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,718:      pdf_renderer.py:  470: printSegment: Valid Accounts
+   DEBUG: 2024-05-17 20:59:18,718:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,718:      pdf_renderer.py:  470: printSegment: Execution:
+   DEBUG: 2024-05-17 20:59:18,719:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,719:      pdf_renderer.py:  470: printSegment: Command and Scripting Interpreter
+   DEBUG: 2024-05-17 20:59:18,719:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,719:      pdf_renderer.py:  470: printSegment: Inter-Process Communication
+   DEBUG: 2024-05-17 20:59:18,719:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,719:      pdf_renderer.py:  470: printSegment: Native API
+   DEBUG: 2024-05-17 20:59:18,719:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,720:      pdf_renderer.py:  470: printSegment: Scheduled Task/Job
+   DEBUG: 2024-05-17 20:59:18,720:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,720:      pdf_renderer.py:  470: printSegment: Shared Modules
+   DEBUG: 2024-05-17 20:59:18,720:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,720:      pdf_renderer.py:  470: printSegment: System Services
+   DEBUG: 2024-05-17 20:59:18,720:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,721:      pdf_renderer.py:  470: printSegment: Windows Management Instrumentation
+   DEBUG: 2024-05-17 20:59:18,721:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,721:      pdf_renderer.py:  470: printSegment: Persistence:
+   DEBUG: 2024-05-17 20:59:18,721:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,721:      pdf_renderer.py:  470: printSegment: Create Account
+   DEBUG: 2024-05-17 20:59:18,721:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,721:      pdf_renderer.py:  470: printSegment: Event Triggered Execution
+   DEBUG: 2024-05-17 20:59:18,722:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,722:      pdf_renderer.py:  470: printSegment: Hijack Execution Flow
+   DEBUG: 2024-05-17 20:59:18,722:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,722:      pdf_renderer.py:  470: printSegment: Scheduled Task/Job
+   DEBUG: 2024-05-17 20:59:18,722:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,722:      pdf_renderer.py:  470: printSegment: Server Software Component
+   DEBUG: 2024-05-17 20:59:18,723:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,723:      pdf_renderer.py:  470: printSegment: Privilege Escalation:
+   DEBUG: 2024-05-17 20:59:18,723:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,723:      pdf_renderer.py:  470: printSegment: Access Token Manipulation
+   DEBUG: 2024-05-17 20:59:18,723:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,723:      pdf_renderer.py:  470: printSegment: Hijack Execution Flow
+   DEBUG: 2024-05-17 20:59:18,724:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,724:      pdf_renderer.py:  470: printSegment: Scheduled Task/Job
+   DEBUG: 2024-05-17 20:59:18,724:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,724:      pdf_renderer.py:  470: printSegment: Defense Evasion:
+   DEBUG: 2024-05-17 20:59:18,724:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,724:      pdf_renderer.py:  470: printSegment: Deobfuscate/Decode Files or Information
+   DEBUG: 2024-05-17 20:59:18,725:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,725:      pdf_renderer.py:  470: printSegment: Execution Guardrails
+   DEBUG: 2024-05-17 20:59:18,725:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,725:      pdf_renderer.py:  470: printSegment: Hijack Execution Flow
+   DEBUG: 2024-05-17 20:59:18,725:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,726:      pdf_renderer.py:  470: printSegment: Indicator Removal
+   DEBUG: 2024-05-17 20:59:18,726:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,726:      pdf_renderer.py:  470: printSegment: Masquerading
+   DEBUG: 2024-05-17 20:59:18,726:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,726:      pdf_renderer.py:  470: printSegment: Obfuscated Files or Information
+   DEBUG: 2024-05-17 20:59:18,726:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,727:      pdf_renderer.py:  470: printSegment: System Binary Proxy Execution
+   DEBUG: 2024-05-17 20:59:18,727:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,727:      pdf_renderer.py:  470: printSegment: Credential Access:
+   DEBUG: 2024-05-17 20:59:18,727:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,727:      pdf_renderer.py:  470: printSegment: Brute Force
+   DEBUG: 2024-05-17 20:59:18,728:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,728:      pdf_renderer.py:  470: printSegment: Credentials from Password Stores
+   DEBUG: 2024-05-17 20:59:18,728:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,728:      pdf_renderer.py:  470: printSegment: OS Credential Dumping
+   DEBUG: 2024-05-17 20:59:18,728:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,729:      pdf_renderer.py:  470: printSegment: Steal Application Access Token
+   DEBUG: 2024-05-17 20:59:18,729:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,729:      pdf_renderer.py:  470: printSegment: Steal Web Session Cookie
+   DEBUG: 2024-05-17 20:59:18,729:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,729:      pdf_renderer.py:  470: printSegment: Discovery:
+   DEBUG: 2024-05-17 20:59:18,730:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,730:      pdf_renderer.py:  470: printSegment: Domain Trust Discovery
+   DEBUG: 2024-05-17 20:59:18,730:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,730:      pdf_renderer.py:  470: printSegment: File and Directory Discovery
+   DEBUG: 2024-05-17 20:59:18,730:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,731:      pdf_renderer.py:  470: printSegment: Network Service Discovery
+   DEBUG: 2024-05-17 20:59:18,731:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,731:      pdf_renderer.py:  470: printSegment: Process Discovery
+   DEBUG: 2024-05-17 20:59:18,731:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,731:      pdf_renderer.py:  470: printSegment: Query Registry
+   DEBUG: 2024-05-17 20:59:18,732:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,732:      pdf_renderer.py:  470: printSegment: System Information Discovery
+   DEBUG: 2024-05-17 20:59:18,732:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,732:      pdf_renderer.py:  470: printSegment: System Network Configuration Discovery
+   DEBUG: 2024-05-17 20:59:18,732:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,733:      pdf_renderer.py:  470: printSegment: System Owner/User Discovery
+   DEBUG: 2024-05-17 20:59:18,733:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,733:      pdf_renderer.py:  470: printSegment: System Service Discovery
+   DEBUG: 2024-05-17 20:59:18,733:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,733:      pdf_renderer.py:  470: printSegment: Lateral Movement:
+   DEBUG: 2024-05-17 20:59:18,734:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,734:      pdf_renderer.py:  470: printSegment: Exploitation of Remote Services
+   DEBUG: 2024-05-17 20:59:18,734:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,734:      pdf_renderer.py:  470: printSegment: Remote Services
+   DEBUG: 2024-05-17 20:59:18,735:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,735:      pdf_renderer.py:  470: printSegment: Remote Service Session Hijacking
+   DEBUG: 2024-05-17 20:59:18,735:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,735:      pdf_renderer.py:  470: printSegment: Replication Through Removable Media
+   DEBUG: 2024-05-17 20:59:18,736:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,736:      pdf_renderer.py:  470: printSegment: Software Deployment Tools
+   DEBUG: 2024-05-17 20:59:18,736:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,736:      pdf_renderer.py:  470: printSegment: Use Alternate Authentication Material
+   DEBUG: 2024-05-17 20:59:18,736:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,736:      pdf_renderer.py:  470: printSegment: Collection:
+   DEBUG: 2024-05-17 20:59:18,737:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,737:      pdf_renderer.py:  470: printSegment: Browser Session Hijacking
+   DEBUG: 2024-05-17 20:59:18,737:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,737:      pdf_renderer.py:  470: printSegment: Clipboard Data
+   DEBUG: 2024-05-17 20:59:18,737:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,738:      pdf_renderer.py:  470: printSegment: Data from Information Repositories
+   DEBUG: 2024-05-17 20:59:18,738:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,738:      pdf_renderer.py:  470: printSegment: Email Collection
+   DEBUG: 2024-05-17 20:59:18,738:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,738:      pdf_renderer.py:  470: printSegment: Input Capture
+   DEBUG: 2024-05-17 20:59:18,738:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,738:      pdf_renderer.py:  470: printSegment: Command and Control:
+   DEBUG: 2024-05-17 20:59:18,739:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,739:      pdf_renderer.py:  470: printSegment: Application Layer Protocol
+   DEBUG: 2024-05-17 20:59:18,739:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,739:      pdf_renderer.py:  470: printSegment: Data Encoding
+   DEBUG: 2024-05-17 20:59:18,739:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,739:      pdf_renderer.py:  470: printSegment: Data Obfuscation
+   DEBUG: 2024-05-17 20:59:18,740:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,740:      pdf_renderer.py:  470: printSegment: Dynamic Resolution
+   DEBUG: 2024-05-17 20:59:18,740:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,740:      pdf_renderer.py:  470: printSegment: Encrypted Channel
+   DEBUG: 2024-05-17 20:59:18,740:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,740:      pdf_renderer.py:  470: printSegment: Protocol Tunneling
+   DEBUG: 2024-05-17 20:59:18,741:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,741:      pdf_renderer.py:  470: printSegment: Proxy
+   DEBUG: 2024-05-17 20:59:18,741:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,741:      pdf_renderer.py:  470: printSegment: Remote Access Software
+   DEBUG: 2024-05-17 20:59:18,741:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,741:      pdf_renderer.py:  470: printSegment: Exfiltration:
+   DEBUG: 2024-05-17 20:59:18,742:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,742:      pdf_renderer.py:  470: printSegment: Exfiltration Over C2 Channel
+   DEBUG: 2024-05-17 20:59:18,742:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,742:      pdf_renderer.py:  470: printSegment: Transfer Data to Cloud Account
+   DEBUG: 2024-05-17 20:59:18,742:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,743:      pdf_renderer.py:  470: printSegment: Impact:
+   DEBUG: 2024-05-17 20:59:18,743:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,743:      pdf_renderer.py:  470: printSegment: Data Destruction
+   DEBUG: 2024-05-17 20:59:18,743:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2024-05-17 20:59:18,743:      pdf_renderer.py:  470: printSegment: Data Encrypted for Impact

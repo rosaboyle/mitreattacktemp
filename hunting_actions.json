@@ -1,0 +1,79 @@
+{
+    "hunting_actions": [
+        {
+            "actor": "Midnight Blizzard",
+            "title": "Credential Theft Phishing Lures via Microsoft Teams",
+            "steps": [
+                "Identify and track phishing lures sent via Microsoft Teams chats.",
+                "Detect new domain creation by compromised small business tenants.",
+                "Monitor for requests to create new onmicrosoft.com subdomains.",
+                "Alert for MFA prompt engagement requests initiated by external users."
+            ]
+        },
+        {
+            "actor": "Midnight Blizzard",
+            "title": "Credential Attack Campaigns",
+            "steps": [
+                "Detect token theft techniques for initial access.",
+                "Monitor for signs of authentication spear-phishing, password spray, brute force, and other credential attacks.",
+                "Identify activity using Microsoft 365 tenants owned by small businesses for malicious purposes."
+            ]
+        },
+        {
+            "actor": "Midnight Blizzard",
+            "title": "Post-compromise Activities",
+            "steps": [
+                "Alert on information theft indicators from compromised Microsoft 365 tenants.",
+                "Monitor attempts to add new devices to the organization as managed devices via Microsoft Entra ID.",
+                "Log any anomalous device additions or policy circumvention attempts."
+            ]
+        },
+        {
+            "actor": "Midnight Blizzard",
+            "title": "OAuth Application Abuse",
+            "steps": [
+                "Track and alert on malicious OAuth application creation or modification within a tenant.",
+                "Flag excessive or unusual permission grants to OAuth applications.",
+                "Monitor OAuth application's suspicious API activity."
+            ]
+        },
+        {
+            "actor": "Midnight Blizzard",
+            "title": "Remote Code Execution via CVE-2023-42793",
+            "steps": [
+                "Detect unauthorized access to vulnerable JetBrains TeamCity versions.",
+                "Monitor application and system logs for signs of exploitation.",
+                "Track IP addresses and commands executed remotely on vulnerable servers.",
+                "Watch for attempts to install or execute malicious DLL files."
+            ]
+        },
+        {
+            "actor": "Midnight Blizzard",
+            "title": "Custom Exploit Script Usage",
+            "steps": [
+                "Detect the use of Nuclei vulnerability scanner templates targeting CVE-2023-42793.",
+                "Alert on HTTP requests indicative of exploitation attempts.",
+                "Monitor for indicators of multiple threat actors exploiting the same vulnerability."
+            ]
+        },
+        {
+            "actor": "APT29",
+            "title": "WINELOADER and ROOTSAW Campaigns",
+            "steps": [
+                "Track spear-phishing emails containing malicious links or attachments.",
+                "Monitor HTTP requests to domains like 'waterforvoiceless[.]org' for payload downloads.",
+                "Inspect downloaded payloads for file and directory creation activities.",
+                "Watch for execution of Windows binaries by malicious JavaScript payloads."
+            ]
+        },
+        {
+            "actor": "APT29",
+            "title": "GraphicalProton Malware Usage",
+            "steps": [
+                "Detect malicious DLL files with indicators matching GraphicalProton Yara rules.",
+                "Observe execution of suspicious scheduled tasks invoking malicious DLLs.",
+                "Monitor network connections to malicious C2 servers or unexpected services like Microsoft OneDrive and Dropbox."
+            ]
+        }
+    ]
+}

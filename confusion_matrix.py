@@ -2,7 +2,10 @@ import numpy as np
 from mitretable import mitre_attack_matrix , ground_truth_matrix
 # Ground truth matrix
 # Predicted matrix
-predicted_matrix = mitre_attack_matrix
+# from openaiprompt import predicted_matrix # Will timeout due to the API call
+import json
+with open("predicted_matrix.json", "r") as f:
+    predicted_matrix = json.load(f)
 
 def flatten_matrix(matrix):
     flattened = []
@@ -43,6 +46,49 @@ def calculate_metrics(ground_truth, predicted):
         "confusion_matrix": confusion_matrix
     }
 
+all_subtechniques_predict = set()
+all_subtechniques_mitre = set()
+for tactic, tactic_item in predicted_matrix.items():
+    techniques = set(tactic_item["techniques"])
+    all_subtechniques_predict.update(techniques)
+for tactic, tactic_item in mitre_attack_matrix.items():
+    techniques = set(tactic_item["techniques"])
+    all_subtechniques_mitre.update(techniques)
+
+# Make sure this is true else remove the entries that do not exist in the MITRE ATT&CK matrix
+remove_entries = []
+for tech in all_subtechniques_predict:
+    if tech not in all_subtechniques_mitre:
+        print(tech)
+        remove_entries.append(tech)
+
+for tech in remove_entries:
+    for tactic, tactic_item in predicted_matrix.items():
+        if tech in tactic_item["techniques"]:
+            tactic_item["techniques"].remove(tech)
+        # if not tactic_item["techniques"]:
+        #     del predicted_matrix[tactic]
+    # if tech in all_subtechniques_predict:
+    #     all_subtechniques_predict.remove(tech)
+
+
+all_subtechniques_predict = set()
+all_subtechniques_mitre = set()
+for tactic, tactic_item in predicted_matrix.items():
+    techniques = set(tactic_item["techniques"])
+    all_subtechniques_predict.update(techniques)
+for tactic, tactic_item in mitre_attack_matrix.items():
+    techniques = set(tactic_item["techniques"])
+    all_subtechniques_mitre.update(techniques)
+
+# Make sure this is true else remove the entries that do not exist in the MITRE ATT&CK matrix
+remove_entries = []
+for tech in all_subtechniques_predict:
+    if tech not in all_subtechniques_mitre:
+        print(tech)
+        remove_entries.append(tech)
+
+assert(all_subtechniques_predict.issubset(all_subtechniques_mitre))
 metrics = calculate_metrics(ground_truth_matrix, predicted_matrix)
 
 print("True Positive Rate:", metrics["true_positive_rate"])
