@@ -1,5 +1,23 @@
 # mitreattacktemp
 
+Instructions to run
+
+Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+Run Scripts
+```bash
+python data_extraction.py
+python profiling.py # generates profiling.jsion
+python hunting_actions.py # generates hunting_actions.json
+python mitre_matrix_gen.py # generates mitre_matrix.json
+python generate_report.py # Generates report to final_report.md
+python generate_pdf.py # Generates PDF final_report.pdf
+python confusion_matrix.py # Generates the confusion matrix on the Generated MITRE ATT&CK matrix
+```
+
 What this repository has:
 
 1. Each part of the code is modularized and made as independent as possible so it can be parallelized easily or can be used in a distributed system.
