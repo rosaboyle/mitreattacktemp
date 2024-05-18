@@ -2,12 +2,12 @@
 
 Instructions to run
 
-Install Dependencies
+### Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-Run Scripts
+### Run Scripts
 ```bash
 python data_extraction.py
 python profiling.py # generates profiling.jsion
@@ -18,7 +18,13 @@ python generate_pdf.py # Generates PDF final_report.pdf
 python confusion_matrix.py # Generates the confusion matrix on the Generated MITRE ATT&CK matrix
 ```
 
-What this repository has:
+### Clean everything
+
+```
+rm *.json final_report.md
+```
+
+### What this repository has:
 
 1. Each part of the code is modularized and made as independent as possible so it can be parallelized easily or can be used in a distributed system.
 2. A mechanism to check the accuracy and false positive rates of the MITRE attack matrix if the ground truth is given.
